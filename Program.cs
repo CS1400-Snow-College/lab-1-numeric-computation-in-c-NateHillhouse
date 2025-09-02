@@ -11,3 +11,13 @@ Console.WriteLine($"{a} * {b} - {c} = {d}");
 
 //Playing with the Remainder function
 Console.WriteLine($"Remainder: {a} % {b} = {a % b}");
+
+//Playing with Mins and Maxs
+List<int> range = [1, 2, 3, 4];
+int max = int.MaxValue;
+int min = int.MinValue;
+Console.WriteLine($"Int goes from {max} to {min}");
+
+//Overflow example
+Console.WriteLine($"Overflow: {max + 3}");
+
