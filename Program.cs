@@ -16,8 +16,19 @@ Console.WriteLine($"Remainder: {a} % {b} = {a % b}");
 List<int> range = [1, 2, 3, 4];
 int max = int.MaxValue;
 int min = int.MinValue;
-Console.WriteLine($"Int goes from {max} to {min}");
+Console.WriteLine($"Ints goes from {max} to {min}");
 
 //Overflow example
 Console.WriteLine($"Overflow: {max + 3}");
+
+
+//Doubles and Decimals
+double x = 1.0;
+double y = 3.0;
+decimal z = 1.0M;
+decimal w = 3.0M;
+Console.WriteLine($"Int: 1 / 3 = {1 / 3}");
+Console.WriteLine($"Double: {x} / {y} = {x / y}");
+Console.WriteLine($"Decimal: {z} / {w} = {z / w}");
+//Decimals are more accurate
 
